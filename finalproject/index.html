@@ -1,0 +1,93 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Marine Technology">
+    <meta name="keywords" content="technology, robotics, underwater, sonar, ocean, data">
+    <link rel="stylesheet" href="css/index.css" media="all">
+    <link rel="stylesheet" href="css/print.css" media="print">
+    <title></title>
+</head>
+
+<body>
+    <article class=" grid-container">
+        <header class="title">
+            <h1>Marine Technology</h1>
+        </header>
+        <section class="menu">
+            <div class="icon-bar">
+                <a class="active" href="#"><i class="fa fa-home"></i></a>
+                <a href="#"><i class="fa fa-search"></i></a>
+                <a href="#"><i class="fa fa-envelope"></i></a>
+                <a href="#"><i class="fa fa-globe"></i></a>
+                <a href="#"><i class="fa fa-trash"></i></a>
+                <aside class="left">
+                </aside>
+            </div>
+            <button id="myBtn">Date and Time</button>
+
+            <p id="demo"></p>
+
+            <script>
+                document.getElementById("myBtn").addEventListener("click", displayDate);
+
+                function displayDate() {
+                    document.getElementById("demo").innerHTML = Date();
+                }
+            </script>
+            <nav>
+                <h2>Marine Tech Crash course</h2>
+                <ul>
+                    <li><a href="https://www.furuno.com/en/technology/sonar/basic/">Sonars</a></li>
+                    <li><a href="https://www.marineinsight.com/tech/what-is-remotely-operated-underwater-vehicle-rov/">Remotely Operated Vehicles</a></li>
+                    <li><a href="https://www.vims.edu/research/units/legacy/cornwallis/auv/index.php">Autonomous Underwater Vehicles</a></li>
+                    <li><a href="https://3datdepth.com/">Underwater LiDAR Systems</a></li>
+                </ul>
+                <iframe width="450" height="250" src="https://www.youtube.com/embed/QzUT6xQ1YWw" title="Scanning Sonar image" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <iframe width="450" height="250" src="https://www.youtube.com/embed/YDYfLUb6FDo" title="Deep sea Remote Operated Vehicle (ROV)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <iframe width="450" height="250" src="https://www.youtube.com/embed/4aaPZ80Yo4s" title="Autonomous Underwater Vehicles" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </nav>
+        </section>
+       
+        <div class="content">
+            <h3>
+                Common Types of Sonar
+            </h3>
+            <img src="https://media.istockphoto.com/id/1400777908/photo/schematic-of-a-motor-boat-with-sonar-bathymetry-3d-rendering.jpg?s=612x612&w=0&k=20&c=XePbx4JcvkDZYrtwtMLB4tFUFlYNRjO9XCE9f14OZSI=" alt="sonar" width="500" height="400">
+            <p>
+                Multibeam Sonar
+            </p><p class="indent">
+                <cite>
+                    "Multibeam Echosounders are a type of sonar that is used to map the seafloor. Like other sonar systems, multibeam systems emit sound waves in a fan shape beneath a ship's hull. The amount of time it takes for the sound waves to bounce off the seabed and return to a receiver is used to determine water depth."
+                </cite>
+            <p>
+
+                Scanning Sonar
+            </p><p class="indent">
+                <cite>
+                    "Side-scan sonar is a category of active sonar system for detecting and imaging objects on the seafloor. The multiple physical sensors of the sonar — called a transducer array — send and receive the acoustic pulses that help map the seafloor or detect other objects."
+                </cite>
+            <p>
+                Side Scan
+            </p><p class="indent">
+                <cite>
+                    "Instead of a cone-shaped beam, scanning sonars sweep a narrow beam of very high-frequency energy from side to side, producing “slices” that are combined to create highly detailed images"
+                </cite>
+            </p><p class="indent">&nbsp;</p><h3 style="color:black;">But What Do They Look Like?</h3>
+            &nbsp;<p></p>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        </div>
+        <nav>
+            <h3>Sonar Images</h3>
+            <img src="media/multibeam.jfif" alt="Multibeam Sonar Image">
+            <img src="media/sidescanfr.jfif" alt="Side Scan Sonar Image">
+            <img src="media/sidescan.jpg" alt="Scanning Sonar Image">
+        </nav>
+
+        <footer class="contact">
+            <p>©Samantha Brooks</p>
+        </footer>
+    </article>
+</body>
+</html>
